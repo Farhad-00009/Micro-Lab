@@ -1,0 +1,11 @@
+MOV AX, 0050H  
+
+MOV DX, 0540H  
+
+ADD AX, DX 
+MOV BX, 0050H   
+SUB AX, BX
+INC DX
+DEC BX 
+ HLT
+  
